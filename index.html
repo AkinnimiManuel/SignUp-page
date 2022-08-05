@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+        <title>SIGN UP FORM</title>
+        <meta name="viewport" content="width=device-width" scale="initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+    <header>
+        <div>MANUEL TECHNOLOGIES</div>
+        <h1>Please fill in your details accordingly</h1>
+    </header>
+
+    <main class="signup-page">
+        <form class="sign-up_form">
+            <div class="form-control">
+            <label for="title">Title</label>
+            <select id="title">
+                <option value="mr">Mr</option>
+                <option value="Mrs">Mrs</option>
+                <option value="Trans">Trans</option>
+            </select>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" value="Enter your first name">
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name" value="Enter your last name">
+            <label for="e-mail">E-mail</label>
+            <input type="text" id="e-mail" value="Enter your e-mail">
+            <label for="age">Age</label>
+            <input type="text" id="age" value="enter your age">
+            <label for="psswd">Password</label>
+            <input type="password" id="psswd">
+            <label for="option">Which option best describes you</label>
+            <select id="option">
+            <option value="student">Student</option>
+            <option value="graduate">graduate</option>
+            <option value="employed">Employed</option>
+            <option value="unemployed">Unemployed</option>
+            <option value="business-owner">Business-owner</option> 
+            </select>
+            <div class="form-choice">
+            <label>Would you recommend manuel tech to others?</label>
+            <label for="recommend1">
+                <input type="radio" id="recommend-1" name="recommend">Yes
+            </label>
+            <label for="recommend2">
+                <input type="radio" id="recommend2" name="recommend">No
+            </label>
+            <label for="recommend3">
+                <input type="radio" id="recommend3" name="recommend">Maybe
+            </label>
+            </div>
+            <div class="form-choice">
+                <label>Languages and frameworks known
+                    <small>(choose as many as possible)</small>
+                </label>
+                <label for="lang-1">
+                    <input type="checkbox" name="lang">C</label>
+                <label for="lang-2">
+                    <input type="checkbox" name="lang">C++
+                </label>
+                <label for="lang-3">
+                    <input type="checkbox" name="lang">Phyton
+                </label>
+                <label for="lang-4">
+                    <input type="checkbox" name="lang">Javascript
+                </label>
+                <label for="lang-5">
+                    <input type="checkbox" name="lang">PHP
+                </label>
+                <label for="lang-6">
+                    <input type="checkbox" name="lang">C#
+                </label>
+                <label for="lang-7">
+                    <input type="checkbox" name="lang">React
+                </label>
+                <label for="lang-8">
+                    <input type="checkbox" name="lang">Nodejs
+                </label>
+            </div>
+
+            <div class="search_text-box">
+                <label for="search">Search for your country</label>
+                <input type="text" id="search" value="search...">
+            </div>
+            
+            <div class="form-choice">
+                <label for="comment">
+                    <label>Lets know more about you</label>
+                    <textarea name="comment" id="comment" placeholder="Write about yourself"></textarea>
+                </label>
+
+            </div>
+            <div class="sign-up_form_agree">
+                <input type="checkbox" id="agree-terms" class="invalid">
+            <label for="agree-terms">Agree to
+                <a href="#">Terms &amp; Conditions</a>
+            </label>
+            </div>
+
+            <button type="submit">Sign Up</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
